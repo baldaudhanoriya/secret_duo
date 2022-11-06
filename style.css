@@ -5,9 +5,7 @@ body{
 		overflow-x: hidden;
 }
 header{
-	width: 100vw;
-	height:90vh;
-	background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('img/back.png');
+
 	background-size: cover;
 	position: relative;
 	background-attachment: fixed;
@@ -115,6 +113,7 @@ nav{
 
 .filter-gallery{
 	padding:100px;
+	align-items: center;
 
 }
 
@@ -158,8 +157,8 @@ nav{
 		margin-right: 20px;
 	}
 .portfolio-item .item img{
-	width: 100%;
-	height: 100%;
+	width: 350px;
+	height: 200px;
 	border-radius: 8px;
 }
 .members{
@@ -282,6 +281,13 @@ footer{
 
 }
 .f-contact p{
+	line-height:2em;
+	font-size: 20px;
+	color: grey;	
+	cursor: pointer;
+}
+.f-contact a{
+	text-decoration: none;
 	line-height:2em;
 	font-size: 20px;
 	color: grey;	
